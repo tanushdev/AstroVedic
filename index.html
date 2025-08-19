@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/png">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+        <title>AstroVedic</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">ASTROVEDIC</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Discover</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Zodiac</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/BlinkingStars.gif" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <div class="astrovedic">
+                            <h5>WELCOME</h5>
+                        </div>                       
+                        <h1 class="home__data-title">Explore The <br> Universe</b></h1>
+                        <a href="#" class="button">Explore</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div class="home__info-overlay">
+                            <img height="500px" width="500px" src="assets/img/horoscope.png" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">More Information <br> About The Astrology</h2>
+                        <p class="about__description">Learn about astrology, zodiac signs, retrogrades, and more! <br> Your world becomes clear once you understand how the universe influences it.
+                        </p>
+                        <a href="#about.html" class="button">Learn More</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/Importance-Of-Moon-Phases-In-Astrology.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/image21.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Discover The Fate</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/card3.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <a href="tarot.html" class="discover__title">Tarot</a>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/card1.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <a href="#place" class="discover__title">horoscope</a>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/card2.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <a href="palm.html" class="discover__title">Palm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section">
+                <h2 class="section__title">With Our Experience <br> We Will Serve You</h2>
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">2</h2>
+                            <span class="experience__description">Year <br> Experience</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">75</h2>
+                            <span class="experience__description">Complete <br> Guide</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">650+</h2>
+                            <span class="experience__description">Total <br> Client</span>
+                        </div>
+                    </div>
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/img/horoscope-compatibility-cz-2x1-230315-58d68e.png" alt="" class="experience__img-one">
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="assets/img/phone-wallpapers-for-every-horoscope-i-have-also-realised-v0-z3wf2c5sf9db1 (1).png" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Video Tour</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">Find out more with our video
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/Astrology isn’t science, but your horoscope is more real than you think (1) (online-video-cutter.com).mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Choose Your zodiac</h2>
+                <div class="container2">
+                 
+                    <div class="products-container">
+                 
+                       <div class="product" data-name="p-1">
+                          <img src="assets/img/1.png" alt="">
+                          <h3>Aries</h3>
+                          <div class="prices">March 21 - April 20</div>
+                       </div>
+                 
+                       <div class="product" data-name="p-2">
+                          <img src="assets/img/2.png" alt="">
+                          <h3>Taurus</h3>
+                          <div class="prices">April 21 - May 21</div>
+                       </div>
+                 
+                       <div class="product" data-name="p-3">
+                          <img src="assets/img/3.png" alt="">
+                          <h3>Gemini</h3>
+                          <div class="prices">May 22 - June 21</div>
+                       </div>
+                 
+                       <div class="product" data-name="p-4">
+                          <img src="assets/img/4.png" alt="">
+                          <h3>Cancer</h3>
+                          <div class="prices">June 22 - July 22</div>
+                       </div>
+                 
+                       <div class="product" data-name="p-5">
+                          <img src="assets/img/5.png" alt="">
+                          <h3>Leo</h3>
+                          <div class="prices">July 23 - August 23</div>
+                       </div>
+                 
+                       <div class="product" data-name="p-6">
+                          <img src="assets/img/6.png" alt="">
+                          <h3>Virgo</h3>
+                          <div class="prices">August 24 - September 23</div>
+                       </div>
+
+                       <div class="product" data-name="p-7">
+                        <img src="assets/img/7.png" alt="">
+                        <h3>Libra</h3>
+                        <div class="prices">September 24 - October 23</div>
+                     </div>
+
+                     <div class="product" data-name="p-8">
+                        <img src="assets/img/8.png" alt="">
+                        <h3>Scorpius</h3>
+                        <div class="prices">October 24 - November 22</div>
+                     </div>
+
+                     <div class="product" data-name="p-9">
+                        <img src="assets/img/9.png" alt="">
+                        <h3>Sagittarius</h3>
+                        <div class="prices">November 23 - December 21</div>
+                     </div>
+
+                     <div class="product" data-name="p-10">
+                        <img src="assets/img/10.png" alt="">
+                        <h3>Capricornus</h3>
+                        <div class="prices">December 22 - January 20</div>
+                     </div>
+
+                     <div class="product" data-name="p-11">
+                        <img src="assets/img/11.png" alt="">
+                        <h3>Aquarius</h3>
+                        <div class="prices">January 21 - February 19</div>
+                     </div>
+
+                     <div class="product" data-name="p-12">
+                        <img src="assets/img/12.png" alt="">
+                        <h3>Pisces</h3>
+                        <div class="prices">	February 20 - March 20</div>
+                     </div>
+
+                 
+                    </div>
+                 
+                 </div>
+                 
+                 <div class="products-preview">
+                 
+                    <div class="preview" data-target="p-1">
+                       <i class="fas fa-times"></i>
+                       <img src="assets/img/1.png" alt="">
+                       <h3>Aries</h3>
+                       <div class="price"></div>
+                       <p>You’re focused, you’re driven, you’re passionate! You’ve got everything working for you right now. So, give yourself the permission to take more risks and to boldly step into the wilderness. <br>
+
+                        Power crystal: Rose quartz.</p>
+                    </div>
+
+                    <div class="preview" data-target="p-2">
+                        <i class="fas fa-times"></i>
+                        <img src="assets/img/2.png" alt="">
+                        <h3>Taurus</h3>
+                        <div class="price"></div>
+                        <p>It’s been one helluva journey and only you know the trials and tribulations you’ve gone through before you got here! You’re finally at a point where you’re able to relate to the other with ease and with joy. <br>
+
+                            Power crystal: Rhodonite.</p>
+                     </div>
+
+                     <div class="preview" data-target="p-3">
+                        <i class="fas fa-times"></i>
+                        <img src="assets/img/3.png" alt="">
+                        <h3>Gemini</h3>
+                        <div class="price"></div>
+                        <p>You want what you want, and there’s no two ways about that. Here’s the thing, though: not everybody you experience that spark with is going to want to live out the white picket fence fantasy with you. <br>
+
+                            Power crystal: Citrine.</p>
+                     </div>
+
+                     <div class="preview" data-target="p-4">
+                        <i class="fas fa-times"></i>
+                        <img src="assets/img/4.png" alt="">
+                        <h3>Cancer</h3>
+                        <div class="price"></div>
+                        <p>We get it, Cancer! Things on the love and romance front have been topsy-turvy for a while now. Does that mean you should give up on the idea of romance altogether and lie around sulking at home? We think you already know the answer to this one, beautiful! <br>
+
+                            Power crystal: Pyrite.</p>
+                     </div>
+
+                     <div class="preview" data-target="p-5">
+                        <i class="fas fa-times"></i>
+                        <img src="assets/img/5.png" alt="">
+                        <h3>Leo</h3>
+                        <div class="price"></div>
+                        <p>LIt’s official, Leo! Your days of dreaming and scheming are behind you. It’s time to get into action mode and make big things happen! Your ability to take calculated risks and implement radical changes will prove to be a superpower at this time! <br>
+
+                            Power crystal: Tiger’s eye</p>
+                     </div>
+
+                     <div class="preview" data-target="p-6">
+                        <i class="fas fa-times"></i>
+                        <img src="assets/img/6.png" alt="">
+                        <h3>Virgo</h3>
+                        <div class="price"></div>
+                        <p>Things are looking as good as they feel, Virgo! This chapter of your life is about stepping into the limelight—boldly and unapologetically—and sharing your divine gifts with the world. <br>
+
+                            Power crystal: Sunstone.</p>
+                     </div>
+
+                     <div class="preview" data-target="p-7">
+                        <i class="fas fa-times"></i>
+                        <img src="assets/img/7.png" alt="">
+                        <h3>Libra</h3>
+                        <div class="price"></div>
+                        <p>Whatever is not a vibrational match will have to go. That’s how the universe works. That’s how the law of attraction works. <br>
+
+                            Power crystal: Green jade.</p>
+                     </div>
+
+                     <div class="preview" data-target="p-8">
+                        <i class="fas fa-times"></i>
+                        <img src="assets/img/8.png" alt="">
+                        <h3>Scorpius</h3>
+                        <div class="price"></div>
+                        <p>This guidance isn’t about you and the other, Scorpio. It’s about you and your relationship with yourself. <br>
+
+                            Power crystal: Moonstone.</p>
+                     </div>
+
+                     <div class="preview" data-target="p-9">
+                        <i class="fas fa-times"></i>
+                        <img src="assets/img/9.png" alt="">
+                        <h3>Sagittarius</h3>
+                        <div class="price"></div>
+                        <p>But, have they really changed like they claim they have? We think you already know the answer to this one, Sagittarius. We’re not saying they don’t deserve another chance. N-uh! <br>
+
+                            Power crystal: Dalmatian jasper </p>
+                     </div>
+
+                     <div class="preview" data-target="p-10">
+                        <i class="fas fa-times"></i>
+                        <img src="assets/img/10.png" alt="">
+                        <h3>Capricornus</h3>
+                        <div class="price"></div>
+                        <p>But, they’ve always had ulterior motives. This is something you’ve been aware of on a subconscious level. Yet, you chose to see what you wanted to see and hear what you wanted to hear, Capricorn. <br>
+                            Power crystal: Tourmaline.</p>
+                     </div>
+
+                     <div class="preview" data-target="p-11">
+                        <i class="fas fa-times"></i>
+                        <img src="assets/img/11.png" alt="">
+                        <h3>Aquarius</h3>
+                        <div class="price"></div>
+                        <p>That healing is a mysterious process is *not* news to you, Aquarius. The important thing to remember right now is that the emotions that are resurfacing are resurfacing for a reason. <br>
+                            Power crystal: Malachite.</p>
+                     </div>
+
+                     <div class="preview" data-target="p-12">
+                        <i class="fas fa-times"></i>
+                        <img src="assets/img/12.png" alt="">
+                        <h3>Pisces</h3>
+                        <div class="price"></div>
+                        <p>Kissing frogs is no longer your kink, Pisces. Your birthday month sees you entering your commitment era! <br>
+                            Power crystal: Carnelian.</p>
+                     </div>
+
+                 
+                 </div>
+                 
+
+                
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">Subscribe Our <br> Newsletter</h2>
+                        <p class="subscribe__description">Subscribe to our newsletter and get a daily updates.
+                        </p>
+    
+                        <form action="" class="subscribe__form">
+                            <input type="text" placeholder="Enter email" class="subscribe__input">
+    
+                            <button class="button">
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">AstroVedic</h3>
+                        <p class="footer__description">Reveal what's in store for you with our personalized horoscopes, Tarot readings, and Palm readings!
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="#about" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#discover" class="footer__link">Features</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">New & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Team</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="map">
+                        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.669434395343!2d73.12509517520321!3d18.990200982196804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e866de88667f%3A0xc1c5d5badc610f5f!2sPillai%20College%20of%20Engineering%2C%20New%20Panvel%20(Autonomous)!5e0!3m2!1sen!2sin!4v1710656000178!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2024 AstroVedic. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+        <noscript><a href="https://www.livechat.com/chat-with/17078787/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+
+    </body>
+</html>
