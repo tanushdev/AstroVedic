@@ -67,7 +67,8 @@ python app.py      # runs backend server at localhost:5000
 
 ## 👤 Author
 **Tanush**  
-[GitHub](https://github.com/tanushdev) | [LinkedIn](https://www.linkedin.com/in/tanushshyam) | [Email](tanushshyam42@gmail.com)
+📧 tanushshyam42@gmail.com
+[GitHub](https://github.com/tanushdev) | [LinkedIn](https://www.linkedin.com/in/tanushshyam)
 
 ---
 
