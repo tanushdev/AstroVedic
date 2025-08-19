@@ -65,22 +65,6 @@ python app.py      # runs backend server at localhost:5000
 
 ---
 
-## 📸 Screenshots
-(Add screenshots or a demo video of your web app here)
-
----
-
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome!  
-Feel free to fork this repo and submit a pull request.
-
----
-
-## 📜 License
-This project is licensed under the MIT License. See `LICENSE` for details.
-
----
-
 ## 👤 Author
 **Tanush**  
 [GitHub](https://github.com/tanushdev) | [LinkedIn](https://www.linkedin.com/in/tanushshyam) | [Email](tanushshyam42@gmail.com)
