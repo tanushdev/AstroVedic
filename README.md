@@ -22,11 +22,6 @@ AstroVedic demonstrates skills in **full-stack web development**, **API integrat
 
 ---
 
-## 🚀 Live Demo
-👉 [Add your live demo link here once deployed]
-
----
-
 ## 🛠 Tech Stack
 ![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
 ![Next.js](https://img.shields.io/badge/Frontend-Next.js-black?logo=nextdotjs)
