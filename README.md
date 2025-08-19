@@ -8,7 +8,6 @@
 ![GitHub stars](https://img.shields.io/github/stars/tanushdev/AstroVedic?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/tanushdev/AstroVedic?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/tanushdev/AstroVedic)
-![GitHub license](https://img.shields.io/github/license/tanushdev/AstroVedic)
 
 ---
 
@@ -49,15 +48,15 @@ Clone the repo and install dependencies:
 ```bash
 git clone https://github.com/tanushdev/AstroVedic.git
 cd AstroVedic
-npm install        # for frontend
-# or
-pip install -r requirements.txt  # for backend
+npm install       
+or
+pip install -r requirements.txt  
 ```
 
 Start the application:
 ```bash
 npm start          # runs frontend at localhost:3000
-# or
+or
 python app.py      # runs backend server at localhost:5000
 ```
 
@@ -89,7 +88,7 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 
 ## 👤 Author
 **Tanush**  
-[GitHub](https://github.com/tanushdev) | [LinkedIn](#) | [Email](#)
+[GitHub](https://github.com/tanushdev) | [LinkedIn](https://www.linkedin.com/in/tanushshyam) | [Email](tanushshyam42@gmail.com)
 
 ---
 
